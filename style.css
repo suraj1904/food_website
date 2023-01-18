@@ -1,0 +1,145 @@
+
+
+.navbar{
+
+    background:linear-gradient(rgb(178, 238, 249),rgb(219, 191, 247))  !important;
+}
+
+.nav-link{
+
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-brand{
+
+    color: rgb(247, 152, 9);
+}
+
+.nav-link:hover{
+
+    color: rgb(247, 152, 9);
+    border-bottom: 2px solid white;
+}
+
+.active{
+
+    color: rgb(255, 174, 0) !important;
+}
+
+.navbar-toggler-icon{
+
+    background-color: white !important;
+}
+
+.carousel-item img{
+  background-size: cover;
+  background-position: center;
+    height: 90vh;
+}
+
+.services-cols{
+
+    /* border: 1px solid red; */
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card img{
+
+    height: 25vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.card{
+
+    transition: all ease .5s;
+
+}
+.card:hover{
+
+    box-shadow: 10px 10px 15px gray;
+    margin-top: -2rem;
+    /* rotate: 10deg; */
+    cursor: pointer;
+}
+
+.about-main{
+
+    /* border: 1px solid cyan; */
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.read{
+    border: 1px solid transparent;
+    border-radius: 2px;
+    background-color: darkorange;
+    color: #fff;
+    text-decoration: none;
+    padding: 4px;
+    box-shadow: 2px 2px 2px 2px gray;
+    font-size: xx-large;
+    font-weight: bolder;
+
+
+}
+.read:hover{
+    background-color: blueviolet;
+    color: #fff;
+    transition: all 0.8s ease-in;
+    
+
+}
+.about-main img{
+
+    height: 20rem;
+    width: 20rem;
+    /* border: 1px solid red; */
+    
+}
+
+.contact-main{
+
+    /* border: 1px solid green; */
+    height: 50vh;
+    padding: 1rem;
+
+}
+
+.footer div i{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (min-width:375px) or (max-width:1024px) {
+    .navbar{
+    width: 50%;
+    } 
+    #carouselExampleIndicators{
+        width: 50%;
+    }
+    #services{
+        width: 50%;
+    }
+    #about{
+        width: 50%;
+    }
+    #contact{
+        width: 50%;
+    }
+    footer{
+        width: 50%;
+    }
+    img{
+        width: 50%;
+        height: auto;
+    }
+}
